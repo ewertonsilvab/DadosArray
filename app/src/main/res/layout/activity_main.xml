@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutprincipal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+
+    android:orientation="vertical"
+    tools:context="com.example.user.dadosarray.MainActivity">
+
+
+    <EditText
+        android:id="@+id/prod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nº Produto"
+        android:inputType="textPersonName"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/armazem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Armazém"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/documentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Documentos"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inventario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Inventário"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/quantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Quantidade"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Lote"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/add"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="botaoadd"
+        android:text="ADICIONAR" />
+
+    <Button
+        android:id="@+id/gravar"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="botaosave"
+        android:text="SALVAR" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:background="@drawable/frugal"
+        android:scaleType="matrix" />
+
+</LinearLayout>
